@@ -13,7 +13,6 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
-
   display: flex;
 }
 
@@ -47,4 +46,9 @@ body {
   padding: 0;
   list-style-type: none;
   gap: 1em;
+}
+.shapes-list {
+  display: flex;
+  list-style-type: none;
+  gap: 1.5em;
 }

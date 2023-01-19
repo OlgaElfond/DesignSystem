@@ -1,3 +1,5 @@
+@import url(./../styles/index.css);
+
 :root {
   --shape-none: 0;
   --shape-xsmall: 0.25em;
@@ -6,4 +8,39 @@
   --shape-large: 1em;
   --shape-xlarge: 1.75em;
   --shape-full: 1000em;
+}
+
+.shapes-list li div {
+  background: var(--color-primary);
+}
+.square ::before.theName {
+  color: var(--color-primary);
+}
+.xsmall {
+  width: var(--shape-xsmall);
+  height: var(--shape-xsmall);
+}
+.small {
+  width: var(--shape-small);
+  height: var(--shape-small);
+}
+.medium {
+  width: var(--shape-medium);
+  height: var(--shape-medium);
+}
+.large {
+  width: var(--shape-large);
+  height: var(--shape-large);
+}
+.xlarge {
+  width: var(--shape-xlarge);
+  height: var(--shape-xlarge);
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: var(--shape-xsmall);
+  border-color: transparent transparent transparent #007bff;
 }
